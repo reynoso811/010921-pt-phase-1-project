@@ -106,6 +106,32 @@ for year in years:
     print(df)
 
 
+x = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+
+Documentary = [2902, 2011, 2012...]
+Drama = [count in 2010, 2011, 2012...]
+Comedy = [count in 2010, 2011, 2012...]
+Crime = [count in 2010, 2011, 2012...]
+Thriller = [count in 2010, 2011, 2012...]
+Romance = [count in 2010, 2011, 2012...]
+Horror = [count in 2010, 2011, 2012...]
+Mystery = [count in 2010, 2011, 2012...]
+Action = [count in 2010, 2011, 2012...]
+History = [count in 2010, 2011, 2012...]
+Animation = [count in 2010, 2011, 2012...]
+Fantasy = [count in 2010, 2011, 2012...]
+Adventure = [count in 2010, 2011, 2012...]
+Family = [count in 2010, 2011, 2012...]
+Music = [count in 2010, 2011, 2012...]
+Biography = [count in 2010, 2011, 2012...]
+Musical = [count in 2010, 2011, 2012...]
+Sci_Fi = [count in 2010, 2011, 2012...]
+Sport = [count in 2010, 2011, 2012...]
+News = [count in 2010, 2011, 2012...]
+War  = [count in 2010, 2011, 2012...]
+Western  = [count in 2010, 2011, 2012...]
+Reality_TV= [count in 2010, 2011, 2012...]
+Short = [count in 2010, 2011, 2012...]
 
 
 
