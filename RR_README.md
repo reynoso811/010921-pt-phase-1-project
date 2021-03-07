@@ -7,7 +7,7 @@
 ## Overview
 
 This project is an analysis into the movie industry. 
-More espefically analysing the monetary success of films with respect to genres, realease dates,and studios in the United States. 
+More espefically analysing the monetary success of films with respect to movie genres, realease dates,and movie studios in the United States. 
 
 ## Business Problem
 
