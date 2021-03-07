@@ -1,16 +1,18 @@
-# Title
+![Test](./images/20200707-114450-Ruppert-Film-Industry-1.jpg)
 
-**Authors**: Student1, Student2
+# Moniterary Movie Industry Analysis
+
+**Authors**: [Robert Reynoso](mailto:robert@birdstop.io)
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+This project is an analysis into the movie industry. 
+More espefically analysing the monetery success of films, genres, and studios in the United States. 
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
+The business problem for this project is a report on the movie industry that will allow Microsoft producers to make informed decisions in the creation of thier new movie stusio. In the U.S., success can be described through moneteray means. Thus given the available data sets (names used?)insights into how to maximize profit are shown using 3 seperate analysis. Throguh the data, we are able to see which movie genre makes the most profit, which month for a given movie release yields more profit, and which current studios have been most profitable.
 
-***
 Questions to consider:
 * What are the business's pain points related to this project?
 * How did you pick the data analysis question(s) that you did?
