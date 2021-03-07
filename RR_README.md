@@ -1,13 +1,13 @@
 ![Test](./images/20200707-114450-Ruppert-Film-Industry-1.jpg)
 
-# Moniterary Movie Industry Analysis
+# Monetary Movie Industry Analysis
 
 **Authors**: [Robert Reynoso](mailto:robert@birdstop.io)
 
 ## Overview
 
 This project is an analysis into the movie industry. 
-More espefically analysing the monetery success of films, genres, and studios in the United States. 
+More espefically analysing the monetary success of films with respect to genres, realease dates,and studios in the United States. 
 
 ## Business Problem
 
