@@ -54,7 +54,7 @@ plt_y.extend(dropped['genres'].tolist())
 #genre_02 = [count in 2010, 2011, 2012...]
 
 
-#working function
+#.explode?
 for year in years:
     genres = dropped.loc[dropped["start_year"].isin([year])]["genres"]
     dropped.groupby("genres")

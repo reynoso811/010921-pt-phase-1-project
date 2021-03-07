@@ -85,6 +85,7 @@ for year in years:
     
 
 
+df = pd.DataFrame()
 for year in years:
     
     print("***********",year,"****************")
@@ -103,8 +104,22 @@ for year in years:
     for elem in finalGenres:
         output["genres"].append(elem)
         output["count"].append(finalGenres[elem])
-    df  = pd.DataFrame(output)
-    print(df)
+    frame = pd.DataFrame(output)
+    frame["year"]=year
+    df  = df.append(frame) 
+    
+
+
+df.head()
+
+
+df.pivot(columns="genres", index="year", values="count").T.sort_values(by=[2019],ascending=False).T.plot(kind="bar", stacked=True)
+plt.legend(ncol=5)
+plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.5),
+         fancybox=True, shadow=True, ncol=5)
+plt.xlabel("Movie release year")
+plt.ylabel("Genre count")
+plt.title("Most popular genre")
 
 
 x = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
@@ -168,7 +183,7 @@ plt.legend()
 #hide the legend.legend?
 
 
-
+Drama = [count in 2010, 2011, 2012...]
 
 
 
