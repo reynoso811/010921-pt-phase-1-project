@@ -5,13 +5,13 @@ get_ipython().run_line_magic("matplotlib", " inline")
 
 
 
-df_01 = pd.read_csv('third_graph')
+df_001 = pd.read_csv('third_graph')
 
 
-df_01.head()
+df_001.head()
 
 
-sorted1 = df_01.sort_values(by=['domestic_gross'], ascending=True)
+sorted1 = df_001.sort_values(by=['domestic_gross'], ascending=True)
 sorted1.head()
 sorted1.shape
 

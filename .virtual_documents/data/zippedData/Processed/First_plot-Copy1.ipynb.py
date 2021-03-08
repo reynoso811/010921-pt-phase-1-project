@@ -113,13 +113,16 @@ for year in years:
 df.head()
 
 
-df.pivot(columns="genres", index="year", values="count").T.sort_values(by=[2019],ascending=False).T.plot(kind="bar", stacked=True)
+plot_1 = df.pivot(columns="genres", index="year", values="count").T.sort_values(by=[2019],ascending=False).T.plot(kind="bar", stacked=True)
 plt.legend(ncol=5)
 plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.5),
          fancybox=True, shadow=True, ncol=5)
 plt.xlabel("Movie release year")
 plt.ylabel("Genre count")
 plt.title("Most popular genre")
+
+
+
 
 
 x = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]

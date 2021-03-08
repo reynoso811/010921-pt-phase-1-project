@@ -46,13 +46,16 @@ merge_01.shape
 merge_01.to_csv('../data/zippedData/Processed/merge1.csv')
 
 
-df_01 = pd.read_csv('../data/zippedData/bom.movie_gross.csv.gz')
 
 
-df_01.head()
+
+df_0_1 = pd.read_csv('../data/zippedData/bom.movie_gross.csv.gz')
 
 
-data_g = df_01.drop(['title','foreign_gross', 'year'], axis=1)
+df_0_1.head()
+
+
+data_g = df_0_1.drop(['title','foreign_gross', 'year'], axis=1)
 
 
 data_g.head()
