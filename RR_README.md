@@ -13,15 +13,11 @@ More espefically analysing the monetary success of films with respect to movie g
 
 The business problem for this project is a report on the movie industry that will allow Microsoft producers to make informed decisions in the creation of thier new movie stusio. In the U.S., success can be described through moneteray means. Thus given the available data sets (names used?)insights into how to maximize profit are shown using 3 seperate analysis. Throguh the data, we are able to see which movie genre makes the most profit, which month for a given movie release yields more profit, and which current studios have been most profitable.
 
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
-
 ## Data
 
-Describe the data being used for this project.
+* Within the movie industry data has been collected through individual companies such as IMDB, and Rotten Tomatoes.
+
+* This available data mainly consists of text and integers. Pertaining to movie titles, genres, production budgets, etc. 
 
 ***
 Questions to consider:
