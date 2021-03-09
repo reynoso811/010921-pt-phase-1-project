@@ -32,20 +32,28 @@ Present your key results. For Phase 1, this will be findings from your descripti
 ### Analysis 1
 ![graph1](./images/analysis_1.png)
 
+![graph1](./images/analysis_2.png)
+
+![graph1](./images/analysis_3.png)
+
 ## Conclusions
 
-Provide your conclusions about the work you've done, including any limitations or next steps.
+Given these analysis, 3 recommendations can be made:
+1. In order to maximize revenue a studio should consider making movies within in the Drama, Comedy, and Documentary genres.
 
-***
-Questions to consider:
-* What would you recommend the business do as a result of this work?
-* What are some reasons why your analysis might not fully solve the business problem?
-* What else could you do in the future to improve this project?
-***
+2. In order to maximize revenue a studio should consider releasing films in either December or June.
+
+3. In order to maximize revenue a new studio should consider doing further research into Buena Vista and Universal Studios. In order to understand why these studios have been more successful than other studios in the U.S.
+
+* The business problem for this project is a report on the movie industry that will allow Microsoft producers to make informed decisions in the creation of their new movie studio. 
+
+* A successful film in the U.S. is one that yields maximum profit.
+
+* Thus using these 3 analysis a producer can begin to make informed decisions into creating a new movie studio. 
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./Movie_Analysis.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
