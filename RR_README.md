@@ -19,38 +19,18 @@ The business problem for this project is a report on the movie industry that wil
 
 * This available data mainly consists of text and integers. Pertaining to movie titles, genres, production budgets, etc. 
 
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
-
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
+* In this project, descriptive analysis was used. Including trends over time, and greatest count of specific categories.
 
-***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-* Why is this approach appropriate given the data and the business problem?
-***
+* Using the Pandas Python library, data analysis and manipulation was carried out.
 
 ## Results
 
 Present your key results. For Phase 1, this will be findings from your descriptive analysis.
 
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
-
-Here is an example of how to embed images from your sub-folder:
-
-### Visual 1
-![graph1](./images/viz1.png)
+### Analysis 1
+![graph1](./images/analysis_1.png)
 
 ## Conclusions
 
