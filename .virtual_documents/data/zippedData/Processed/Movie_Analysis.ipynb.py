@@ -54,7 +54,8 @@ ds_01.head()
 
 # Drop unnecessary columns
 
-dropped = ds_02.drop(['Unnamed: 0','tconst','averagerating','numvotes','primary_title','runtime_minutes'], axis=1)
+
+dropped = ds_01.drop(['Unnamed: 0','tconst','averagerating','numvotes','primary_title','runtime_minutes'], axis=1)
 
 
 # Using the Pandas sort function I sort by the start year column
@@ -62,7 +63,21 @@ dropped = ds_02.drop(['Unnamed: 0','tconst','averagerating','numvotes','primary_
 dropped.sort_values(by='start_year', ascending=False)
 
 
-# With this for loop I was able to accomplish several things. In order to be able to plot which movie genre
+# A unique list of years. To match Genre year count to. 
+
+plt_x = []
+plt_x.extend(dropped['start_year'].tolist())
+years = []
+[years.append(x)for x in plt_x if x not in years]
+
+
+years
+
+
+# With this for loop I was able to accomplish several things. 
+# In order to be able to plot which movie genre has the highest count. A new list of said counts is needed.
+# Due to some movies having multiple genres. A filter was needed to only count movies with single genres.
+# This new count was then transformed into a Pandas Data Frame
     
 
 df = pd.DataFrame()
@@ -98,14 +113,11 @@ plt.legend(ncol=5)
 plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.5),
          fancybox=True, shadow=True, ncol=5)
 
-plt.xlabel("Movie release year")
-plt.ylabel("Genre count")
-plt.title("Most popular genre")
+plt.xlabel("Movie Release Year")
+plt.ylabel("Genre Count")
+plt.title("Most Popular Genre")
 
 plt.savefig('analysis_1.png')
-
-
-pwd
 
 
 df_01 = pd.read_csv('../tn.movie_budgets.csv.gz')
@@ -177,8 +189,8 @@ data_02.shape
 
 data_02.plot(kind="scatter", x = 'months' , y = 'domestic_gross', figsize=(10, 8))
 
-plt.xlabel("Month of mov release")
-plt.ylabel("US Gross (mil)")
+plt.xlabel("Month of Movie Release")
+plt.ylabel("U.S. Gross (mm)")
 plt.title("Monetarily Successful Release Dates")
 
 plt.savefig('analysis_2.png')
@@ -203,7 +215,7 @@ data_g.head()
 
 # Sort by domestic gross
 
-sorted1 = df_001.sort_values(by=['domestic_gross'], ascending=True)
+sorted1 = df_0_1.sort_values(by=['domestic_gross'], ascending=True)
 sorted1.head()
 sorted1.shape
 
@@ -225,11 +237,8 @@ largest.plot(kind = 'bar', y = 'domestic_gross' , x = 'studio', figsize = (10,8)
 
 plt.style.use('seaborn')
 plt.legend()
-plt.title('test')
+plt.title('Top 50 Studios')
 plt.xlabel("Studios")
-plt.ylabel("US Gross (mil)")
+plt.ylabel("U.S. Gross (mm)")
 
 plt.savefig('analysis_3.png')
-
-
-
