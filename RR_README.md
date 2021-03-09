@@ -70,7 +70,7 @@ Further analysis could produce more accurate and current insights:
 
 Please review our full analysis in [our Jupyter Notebook](./Movie_Analysis.ipynb) or our [presentation](./Movie_Analysis.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact **Robert Reynoso & robert@birdstop.io**
 
 ## Repository Structure
 
