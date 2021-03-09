@@ -26,8 +26,12 @@ The business problem for this project is a report on the movie industry that wil
 * Using the Pandas Python library, data analysis and manipulation was carried out.
 
 ## Results
+* From Analysis 1, the most popular movie genres from 2010 - 2019 have been Drama, Comedy, and Documentary
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
+* From Analysis 2, the most monetarily successful release dates have been December and June.
+
+* From Analysis 3, the top 50 movie studios in the U.S. have been Buena Vista and Universal Studios.  
+
 
 ### Analysis 1
 ![graph1](./images/analysis_1.png)
@@ -51,20 +55,31 @@ Given these analysis, 3 recommendations can be made:
 
 * Thus using these 3 analysis a producer can begin to make informed decisions into creating a new movie studio. 
 
+## Next Steps
+
+Further analysis could produce more accurate and current insights:
+
+* Merging more data sets could yield more accurate information
+
+* Design a new label for movies with multiple genres. Yielding more data, rather than dropping movies with multiple genres. 
+
+* New investigation into what specifically made the top 50 studios more successful than other studios in the U.S.
+
+
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./Movie_Analysis.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./Movie_Analysis.ipynb) or our [presentation](./Movie_Analysis.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
 ## Repository Structure
 
-Describe the structure of your repository and its contents, for example:
+
 
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── Movie_Analysis.ipynb                <- Narrative documentation of analysis in Jupyter notebook
+├── Movie_Analysis.pdf                  <- PDF version of project presentation
 ├── data                                <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
 ```
