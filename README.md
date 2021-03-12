@@ -11,7 +11,7 @@ More espefically analysing the monetary success of films with respect to movie g
 
 ## Business Problem
 
-The business problem for this project is a report on the movie industry that will allow Microsoft producers to make informed decisions in the creation of thier new movie stusio. In the U.S., success can be described through moneteray means. Thus given the available data sets (names used?)insights into how to maximize profit are shown using 3 seperate analysis. Throguh the data, we are able to see which movie genre makes the most profit, which month for a given movie release yields more profit, and which current studios have been most profitable.
+The business problem for this project is a report on the movie industry that will allow Microsoft producers to make informed decisions in the creation of thier new movie studio. In the U.S., success can be described through moneteray means. Thus given the available data sets insights into how to maximize profit are shown using 3 seperate analysis. Throguh the data, we are able to see which movie genre makes the most profit, which month for a given movie release yields more profit, and which current studios have been most profitable.
 
 ## Data
 
